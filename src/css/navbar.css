@@ -1,0 +1,56 @@
+header nav {
+  max-width: var(--content-width--lg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px auto;
+}
+
+.nav_brand {
+  color: var(--color-white);
+  font-family: 'Stanley';
+  cursor: pointer;
+}
+
+.nav_button {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.nav_toggle {
+  width: 10px;
+  height: 10px;
+  background-color: var(--color-black);
+  margin-bottom: 5px;
+  position: relative;
+  pointer-events: none;
+}
+
+.nav_toggle::before,
+.nav_toggle::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  background-color: var(--color-black);
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.nav_toggle::before{
+  height: 160%;
+  transform: translate(150%, -40%);
+}
+.nav_toggle::after {
+  height: 250%;
+  transform: translate(300%, -60%);
+}
+
+.nav_toggle--text {
+  font-family: 'Stanley';
+  font-size: .5rem;
+  text-align: center;
+  margin-left: .05rem;
+  pointer-events: none;
+}

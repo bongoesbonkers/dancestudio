@@ -1,0 +1,105 @@
+.section_classes {
+  background: black;
+  min-height: 170vh;
+}
+
+.section_classes .section_image img:nth-of-type(1) {
+  transform: translate(-50%, -10%) scale(0.7);
+  height: 100%;
+  z-index: 0;
+}
+.section_classes .section_media {
+  flex-basis: 60%;
+}
+
+.section_classes .section_image img {
+  top: 0;
+  max-width: unset;
+}
+
+.section_classes .section_content > div.section_content {
+  position: absolute;
+  top: 38%;
+  padding: 0 1rem;
+}
+
+.section_classes .section_content .class_list {
+
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  width: var(--content-width--lg);
+}
+
+.section_classes .section_content .class_list .class_list-item {
+  flex-basis: 35%;
+  flex-grow: 0;
+  position: relative;
+  z-index: 10;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
+
+.section_classes .section_content .class_list .class_list-item:hover .class_title h3  {
+  border-bottom: 1px solid;
+} 
+
+.section_classes .section_content .class_list .class_list-item:hover > .class_image img {
+  transform: scale(1.1);
+} 
+
+.section_classes .section_content .class_list .class_list-item > div {
+  pointer-events: none;
+}
+
+.section_classes .section_content .class_list .class_list-item:nth-of-type(even) {
+  transform: translateX(-20%);
+}
+
+.section_classes .section_content .class_list .class_list-item .class_image {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  right: 30%;
+  top: 0;
+  z-index: -1;
+}
+
+.section_classes .section_content .class_list .class_list-item .class_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section_classes .section_content .class_list .class_list-item .class_title h3 {
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin-bottom: 0.7rem;
+  letter-spacing: 0.2px;
+  max-width: 65%;
+  padding-bottom: 2px;
+  display: inline-block;
+}
+
+.section_classes .section_content .class_list .class_list-item .class_details {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 100;
+  list-style: none;
+}
+
+.section_classes .section_content .class_list .class_list-item .class_details > li:not(:first-of-type) {
+  margin-top: 0.35rem;
+}
+
+.section_classes .section_content p {
+  margin-top: 2rem;
+}
+
+.section_classes .section_content .cta {
+  text-align: unset;
+}
+

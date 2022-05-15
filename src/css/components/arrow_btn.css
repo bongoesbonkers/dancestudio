@@ -1,0 +1,103 @@
+.cta_container {
+  display: inline-block;
+}
+
+.cta {
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  align-self: flex-end;
+  border: 1px solid rgba(255,255,255,0.5);
+  padding-left: 3rem;
+  margin-top: 3rem;
+  transition: all .4s ease-out;
+}
+
+.cta svg > circle {
+  opacity: 0.8;
+  transition: transform .4s ease, fill .2s 0.1s ease-out;
+  transform: translate(0, 12%) scale(0.8);
+}
+
+.cta:hover {
+  border: none;
+}
+
+.cta:hover svg > circle {
+  opacity: 1;
+  transform: translate(70%, -15%) scale(1.3);
+  fill: white;
+}
+
+.cta span {
+  transition: all .25s .115s ease-in-out;
+}
+
+.cta:hover > span:first-of-type {
+  transform: translateX(100%);
+}
+
+.cta:hover .arrow_line {
+  background-color: transparent;
+}
+
+.cta:hover .arrow_line::before {
+  transform: rotate(-45deg) translateY(10px);
+  background-color: black;
+}
+
+.cta:hover .arrow_line::after {
+  transform: rotate(45deg) translateY(-10px);
+  background-color: black;
+}
+
+.cta .arrow_btn {
+  position: relative;
+  display: inline-block;
+}
+
+.cta .arrow {
+  position: relative;
+}
+
+.cta .arrow_line {
+  width: 100px;
+  height: 0.1px;
+  background-color: white;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transition: transform .4s ease, background-color .3s .2s ease;
+  transform-origin: right center;
+}
+
+.arrow_line::before {
+  width: 20%;
+  height: 100%;
+  display: inline-block;
+  content: '';
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: rotate(45deg);
+  transition: transform .4s .05s ease-out, background-color .3s .55s ease;
+
+}
+
+.arrow_line::after {
+  width: 20%;
+  height: 100%;
+  display: inline-block;
+  content: '';
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: rotate(-45deg);
+  transition: transform .4s .05s ease-out, background-color .3s .55s ease;
+
+}
+

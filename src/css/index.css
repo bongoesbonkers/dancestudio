@@ -1,0 +1,18 @@
+
+@import url(./base.css);
+@import url(./navbar.css);
+@import url(./home/header.css);
+@import url(./home/sectionLease.css);
+@import url(./home/sectionClasses.css);
+
+/* Components */
+@import url(./components/nav.css);
+@import url(./components/arrow_btn.css);
+
+:root {
+  --color-black: #000;
+  --color-white: #fff;
+  --color-caption: #dfdfdf;
+
+  --content-width--lg: 1594px;
+}

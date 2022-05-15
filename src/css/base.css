@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+section {
+  padding: 150px;
+  position: relative;
+}
+.section_circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scale(0.5) translate(-20%, -15%);
+}
+
+.section_heading > h2{
+  font-family: 'Stanley';
+  font-size: 32px;
+}
+
+h1 {
+  font-family: 'Stanley';
+}
+
+/* img {
+  width: 100%;
+  height: auto;
+} */
+
+p {
+  line-height: 1.75rem;
+  text-align: left;
+  letter-spacing: 0.1px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
