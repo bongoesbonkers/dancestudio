@@ -10,7 +10,7 @@ header nav {
   color: var(--color-white);
   font-family: 'Stanley';
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .nav_button {
@@ -50,7 +50,7 @@ header nav {
 
 .nav_toggle--text {
   font-family: 'Stanley';
-  font-size: 1rem;
+  font-size: 0.5rem;
   text-align: center;
   margin-left: .05rem;
   pointer-events: none;
