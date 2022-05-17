@@ -45,16 +45,16 @@ header {
 
 .heading_primary {
   /* initial state */
-  transform: translate(-100%,-100%);
+  transform: translate(-80%,-100%);
   /* final state */
   color: var(--color-white);
   z-index: -1;
-  width: 502px;
+  /* width: 502px; */
   height: inherit;
 }
 
 .heading_primary--2 {
-  transform: translate(0,-100%);
+  transform: translate(3%,-144%);
   color: var(--color-black);
   width: 524px;
   z-index: 1;

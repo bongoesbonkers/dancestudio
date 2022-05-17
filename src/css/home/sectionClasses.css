@@ -30,6 +30,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
+  width: var(--content-width--lg);
 }
 
 .section_classes .section_content .class_list .class_list-item {

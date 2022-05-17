@@ -16,3 +16,8 @@
 
   --content-width--lg: 1594px;
 }
+
+@font-face {
+  font-family: 'Stanley';
+  src: url(../../public/fonts/Stanley.otf);
+}
