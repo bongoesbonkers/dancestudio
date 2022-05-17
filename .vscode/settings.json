@@ -1,5 +1,7 @@
 {
   "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#616161",
+    "activityBar.activeBorder": "#616161",
     "list.activeSelectionForeground": "#616161",
     "list.inactiveSelectionForeground": "#616161",
     "list.highlightForeground": "#616161",
@@ -8,6 +10,7 @@
     "textLink.foreground": "#616161",
     "progressBar.background": "#616161",
     "pickerGroup.foreground": "#616161",
+    "tab.activeBorder": "#616161",
     "notificationLink.foreground": "#616161",
     "editorWidget.resizeBorder": "#616161",
     "editorWidget.border": "#616161",
@@ -18,6 +21,10 @@
     "menu.selectionForeground": "#616161",
     "menubar.selectionForeground": "#616161",
     "editor.findMatchBorder": "#616161",
-    "selection.background": "#61616140"
+    "selection.background": "#61616140",
+    "statusBarItem.remoteBackground": "#616161",
+    "activityBar.background": "#13350F",
+    "titleBar.activeBackground": "#1B4A15",
+    "titleBar.activeForeground": "#F6FCF5"
   }
 }
