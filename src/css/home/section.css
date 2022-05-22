@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
-  min-height: 95vh;
+  min-height: 110vh;
 }
 
 .section_circle {
