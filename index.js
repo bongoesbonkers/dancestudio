@@ -24,17 +24,17 @@
     gsap.to(bars, {
       color: 'black',
       delay: 0.8,
-      stagger: 0.4,
-      ease: 'slow(0.7, 0.7, false)'
+      stagger: 0.333,
+      ease: 'Sine.InOut'
     });
 
     gsap.to(bars, {
       y: '100%',
-      delay: 4.8,
+      delay: 4.6666,
       stagger: {
-        amount: 0.8,
+        amount: 0.666,
       },
-      ease: 'slow(0.7, 0.7, false)',
+      ease: 'Sine.InOut',
       onComplete: () => {
         gsap.set(nav, {
           display: 'none',

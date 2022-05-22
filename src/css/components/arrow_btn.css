@@ -35,7 +35,7 @@
 }
 
 .cta:hover > span:first-of-type {
-  transform: translateX(100%);
+  transform: translateX(50%);
 }
 
 .cta:hover .arrow_line {

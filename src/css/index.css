@@ -2,8 +2,10 @@
 @import url(./base.css);
 @import url(./navbar.css);
 @import url(./home/header.css);
+@import url(./home/section.css);
 @import url(./home/sectionLease.css);
 @import url(./home/sectionClasses.css);
+@import url(./home/sectionFiller1.css);
 
 /* Components */
 @import url(./components/nav.css);
@@ -19,5 +21,5 @@
 
 @font-face {
   font-family: 'Stanley';
-  src: url(../../public/fonts/Stanley.otf);
+  src: url(../../public/fonts/Stanley_pxl.otf);
 }

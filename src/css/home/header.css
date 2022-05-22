@@ -49,14 +49,14 @@ header {
   /* final state */
   color: var(--color-white);
   z-index: -1;
-  width: 502px;
+  width: 507px;
   height: inherit;
 }
 
 .heading_primary--2 {
   transform: translate(0,-100%);
   color: var(--color-black);
-  width: 524px;
+  width: 531px;
   z-index: 1;
 }
 

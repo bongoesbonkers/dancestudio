@@ -1,32 +1,6 @@
-.section {
-  width: var(--content-width);
-  background-color: var(--color-black);
-  color: var(--color-white);
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
-
 .section_lease {
   width: var(--content-width);
   height: 100vh;
-}
-
-.section_heading caption {
-  font-size: 0.5rem;
-  text-transform: uppercase;
-}
-
-.section_content {
-  margin: 100px 0 0 0;
-}
-
-.section_content p {
-  max-width: 47ch;
-}
-
-.section_media {
-  flex-basis: 50%;
 }
 
 .section_image {

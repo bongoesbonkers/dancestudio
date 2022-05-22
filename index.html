@@ -6,10 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/9be2cbbb27.js" crossorigin="anonymous"></script>
-
-  <title>Document</title>
+  <title>Dance Studio</title>
 </head>
 <body>
+  <!-- Offcanvas Fullscreen Nav -->
+  <nav class="floating_nav">
+    <span class="nav_closer" data-background="#ffffff">
+      <i class="fa fa-close nav_toggler"></i>
+    </span>
+    <div class="background">
+      <span data-background="#ffffff">1</span>
+      <span data-background="#ffffff">2</span>
+      <span data-background="#ffffff">3</span>
+      <span data-background="#ffffff">4</span>
+      <span data-background="#ffffff">5</span>
+      <span data-background="#ffffff">6</span>
+      <span data-background="#ffffff">7</span>
+      <span data-background="#ffffff">8</span>
+    </div>
+  </nav>
+
+  <!-- Home Page Header -->
   <header>
     <div class="left"></div>
     <div class="right"></div>
@@ -66,22 +83,25 @@
     </div>
   </header>
 
+  <!-- Home Page Sections -->
   <main>
-
     <section class="section section_lease">
       <div class="section_content d-flex flex-col flex-grow ">
         <div class="section_heading">
           <span class="heading_anchor"></span>
-          <h2>
-            <span class="text_hide">
-              studios for lease
-            </span>
-          </h2>
-          <caption>
-            <span class="text-capitalize">
-              various room sizes available
-            </span>
-          </caption>
+          <div class="heading_text">
+            <h2>
+              <span class="text_hide">
+                dance studios for lease
+              </span>
+            </h2>
+            <caption>
+              <span>
+                various room sizes are available
+              </span>
+            </caption>
+          </div>
+          
           <svg 
           viewBox="0 0 300 300" 
           xmlns="http://www.w3.org/2000/svg"
@@ -110,7 +130,7 @@
 
           <div class="cta">
             <span>
-              Gallery
+              Learn More
             </span>
             <div class="arrow_btn">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="150" height="100">
@@ -148,16 +168,19 @@
       <div class="section_content d-flex flex-col flex-grow justify-content-between">
         <div class="section_heading">
           <span class="heading_anchor"></span>
-          <h2>
-            <span class="text_hide">
-              dance lessons
-            </span>
-          </h2>
-          <caption class="text-capitalize">
-            <span class="text-capitalize">
-              Taught By Experienced Professionals
-            </span>
-          </caption>
+          <div class="heading_text">
+            <h2>
+              <span class="text_hide">
+                dance lessons
+              </span>
+            </h2>
+            <caption>
+              <span>
+                Taught By Experienced Professionals
+              </span>
+            </caption>
+          </div>
+         
           <svg 
           viewBox="0 0 300 300" 
           xmlns="http://www.w3.org/2000/svg"
@@ -318,23 +341,23 @@
           </p>
         </div>
 
-        <div class="cta">
-          <span>
-            Schedule
-          </span>
-          <div class="arrow_btn">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="150" height="100">
-              <circle
-              cx="0"
-              cy="50"
-              r="20"
-              fill="transparent"
-              stroke="white"
-            ></circle>
-            </svg>
-            <span class="arrow_line ml-1"></span>
+          <div class="cta">
+            <span>
+              Full Schedule
+            </span>
+            <div class="arrow_btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="150" height="100">
+                <circle
+                cx="0"
+                cy="50"
+                r="20"
+                fill="transparent"
+                stroke="white"
+              ></circle>
+              </svg>
+              <span class="arrow_line ml-1"></span>
+            </div>
           </div>
-        </div>
         </div>
       </div>
 
@@ -344,30 +367,146 @@
         </div>
       </div>      
     </section>
-    <section class="section_filler section_filler--1">
+    
+    <section class="section section_filler section_filler--1">
+      <div class="section_content d-flex flex-col flex-grow ">
+        <div class="section_heading">
+          <span class="heading_anchor"></span>
+          <div class="heading_text">
+            <h2>
+              <span class="text_hide">
+                express without limits
+              </span>
+            </h2>
+            <caption>
+              <span>
+                lorem ipsum dolor si amet
+              </span>
+            </caption>
+          </div>
+         
+          <svg 
+          viewBox="0 0 300 300" 
+          xmlns="http://www.w3.org/2000/svg"
+          width="700"
+          height="700"
+          class="section_circle"
+          >
+            <circle
+              cx="100"
+              cy="100"
+              r="100"
+              fill="transparent"
+              stroke="white"
+            ></circle>
+          </svg>
+        </div>
+  
+        <div class="section_content d-flex flex-col">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, sapiente at maiores iste est, tempore nulla in voluptatibus laboriosam, aliquid eius? Ut cupiditate magnam animi hic aliquid consectetur, quas saepe!
+          </p>
+          <br>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit sit modi quo officia quidem quasi ex neque? Atque tempore dicta porro veniam, debitis dolor corrupti, enim maxime, eos ullam nam.
+          </p>
+
+        </div>
+      </div>
+
+      <div class="section_media">
+        <div class="section_gallery">
+          <img class="section_gallery-image" src="./public/img/filler-1_img--1.jpg" alt="">
+          <img class="section_gallery-image" src="./public/img/filler-1_img--2.jpg" alt="">
+          <img class="section_gallery-image" src="./public/img/filler-1_img--3.jpg" alt="">
+
+        </div>
+      </div>    
+    </section>
+
+    <section class="section section_filler section_filler--2">
+      <div class="section_content d-flex flex-col flex-grow ">
+        <div class="section_heading">
+          <span class="heading_anchor"></span>
+          <div class="heading_text">
+            <h2>
+              <span class="text_hide">
+                a space to meet fellow dancers
+              </span>
+            </h2>
+            <caption>
+              <span>
+                opportunities to form your dream team
+              </span>
+            </caption>
+          </div>
+         
+          <svg 
+          viewBox="0 0 300 300" 
+          xmlns="http://www.w3.org/2000/svg"
+          width="700"
+          height="700"
+          class="section_circle"
+          >
+            <circle
+              cx="100"
+              cy="100"
+              r="100"
+              fill="transparent"
+              stroke="white"
+            ></circle>
+          </svg>
+        </div>
+  
+        <div class="section_content d-flex flex-col">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, sapiente at maiores iste est, tempore nulla in voluptatibus laboriosam, aliquid eius? Ut cupiditate magnam animi hic aliquid consectetur, quas saepe!
+          </p>
+          <br>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit sit modi quo officia quidem quasi ex neque? Atque tempore dicta porro veniam, debitis dolor corrupti, enim maxime, eos ullam nam.
+          </p>
+
+          <div class="cta">
+            <span>
+              Book your slot
+            </span>
+            <div class="arrow_btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="150" height="100">
+                <circle
+                cx="0"
+                cy="50"
+                r="20"
+                fill="transparent"
+                stroke="white"
+              ></circle>
+              </svg>
+              <span class="arrow_line ml-1"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section_media">
+        <div class="section_gallery">
+          <img class="section_gallery-image" src="./public/img/filler-2_img.jpg" alt="">
+        </div>
+      </div>    
 
     </section>
-    <section class="section_filler section_filler--2">
-
-    </section>
-
   </main>
 
-  <nav class="floating_nav">
-    <span class="nav_closer" data-background="#ffffff">
-      <i class="fa fa-close nav_toggler"></i>
-    </span>
-    <div class="background">
-      <span data-background="#ffffff">1</span>
-      <span data-background="#ffffff">2</span>
-      <span data-background="#ffffff">3</span>
-      <span data-background="#ffffff">4</span>
-      <span data-background="#ffffff">5</span>
-      <span data-background="#ffffff">6</span>
-      <span data-background="#ffffff">7</span>
-      <span data-background="#ffffff">8</span>
+  <!-- Page Footer -->
+  <footer>
+    <div class="footer_content">
+      <div class="footer_top">
+
+      </div>
+      <div class="footer_bottom">
+
+      </div>
     </div>
-  </nav>
+  </footer>
 
   <!-- GSAP -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
