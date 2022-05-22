@@ -16,7 +16,18 @@
   --color-white: #fff;
   --color-caption: #dfdfdf;
 
-  --content-width--lg: 1594px;
+  /* SIZES
+
+  * xl - 1920 * 1080
+  * lg - 1366 * 768
+  * md - 1024 * 1366
+  
+  */
+  
+  /* width = 90% */
+  --content-width--xl: 1594px;
+  --content-width--lg: 1225px;
+  --content-width--md: 921px;
 }
 
 @font-face {

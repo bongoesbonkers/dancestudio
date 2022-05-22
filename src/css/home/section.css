@@ -1,5 +1,4 @@
 .section {
-  width: var(--content-width);
   color: var(--color-white);
   display: flex;
   flex-wrap: nowrap;
@@ -15,17 +14,20 @@
 }
 
 .section_heading h2{
-  font-size: 28px;
+  font-size: 1.86666666666666666666667rem; /* 28px; */
+  margin-bottom: -.4rem;
 }
 
 .section_heading .heading_text > span {
-  font-size: 1rem;
-  font-weight: 100;
-  letter-spacing: 1.5px;
+  color: #969696;
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem; /* 1.5px */
+  text-transform: uppercase;
 }
 
 .section_content {
-  margin: 100px 0 0 0;
+  margin: 110px 0 0 0;
   flex-basis: 50%;
   flex: 1;
   z-index: 2;
@@ -34,9 +36,11 @@
 .section_media {
   flex-basis: 50%;
   flex: 1;
+  margin-top: 3.33333333rem; /* 50px */
 }
 
 
 .section_content p {
   max-width: 47ch;
 }
+
