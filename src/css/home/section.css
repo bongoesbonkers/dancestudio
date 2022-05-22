@@ -4,6 +4,7 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   min-height: 110vh;
+  margin-bottom: -6%;
 }
 
 .section_circle {
