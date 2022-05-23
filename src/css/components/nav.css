@@ -1,3 +1,5 @@
+/* COLORS CONTROllED VIA JAVASCRIPT */
+
 nav.floating_nav {
   width: 100%;
   height: 100vh;
@@ -9,6 +11,7 @@ nav.floating_nav {
 }
 
 .floating_nav .background {
+  /* Change background color via data attr */
   height: 100%;
   width: 100%;
   display: flex;
@@ -16,17 +19,23 @@ nav.floating_nav {
   pointer-events: none;
 }
 
-.background > span {
+.background > div {
   font-family: 'Stanley';
   font-size: 2rem;
-  flex: 1 0;
+  color: inherit;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
   position: relative;
+  height: 100%;
   z-index: -1;
+  flex: 1 0;
   pointer-events: none !important;
+}
+
+.background > div > span {
+  color: inherit;
+  position: relative;
 }
 
 .nav_closer {

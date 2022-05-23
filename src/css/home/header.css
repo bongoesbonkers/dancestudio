@@ -98,11 +98,11 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-10%, -35%);
-  z-index: -1;
+  z-index: -2;
 }
 
 .deco_circle circle {
-  stroke-width: 0.5px;
+  stroke-width: 0.3px;
 }
 
 /* Social Media  */

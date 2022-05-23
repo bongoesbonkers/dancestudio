@@ -2,7 +2,7 @@
 (document.onload = () => {
   gsap.registerPlugin(ScrollTrigger);
   const nav = document.querySelector('nav.floating_nav');
-  const bars = gsap.utils.toArray('nav.floating_nav .background span');
+  const bars = gsap.utils.toArray('nav.floating_nav .background div');
   const closer = document.querySelector('.nav_closer');
 
   const headerTl = gsap.timeline();
@@ -22,7 +22,7 @@
     });
 
     gsap.to(bars, {
-      color: 'black',
+      color: 'white',
       delay: 0.8,
       stagger: 0.333,
       ease: 'Sine.InOut'
